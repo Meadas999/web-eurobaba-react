@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Router} from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
       <BrowserRouter>
@@ -17,6 +18,7 @@ root.render(
               redirect_uri: window.location.origin
           }}
       >
+
     <App />
     </Auth0Provider>
       </BrowserRouter>
